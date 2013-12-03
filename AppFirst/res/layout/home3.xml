@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+            <ListView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/homeview"
+                android:layout_width="320dp"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" 
+                android:background="@color/menuDrawer" >
+
+            </ListView>
+
+        </LinearLayout>
+		
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.99"
+            android:orientation="vertical" 
+            android:background="@color/menuOuter" >
+
+	        	<TableRow
+	        	    android:id="@+id/tableRow1"
+	        	    android:layout_width="fill_parent"
+	        	    android:layout_height="wrap_content"
+	        	    android:background="@color/menuDrawer"
+	        	    android:orientation="vertical" >
+
+	        	    <LinearLayout
+	        	        android:id="@+id/linearLayout5"
+	        	        android:layout_width="320dip"
+	        	        android:layout_height="wrap_content"
+	        	        android:orientation="horizontal" >
+
+	        	        <Button
+	        	            android:id="@+id/button1"
+	        	            style="button_style"
+	        	            android:layout_width="wrap_content"
+	        	            android:layout_height="40dp"
+	        	            android:layout_gravity="center_vertical"
+	        	            android:layout_marginTop="2dp"
+	        	            android:background="@drawable/list_menu_icon"
+	        	            android:paddingLeft="5dip"
+	        	            android:paddingRight="5dip" />
+
+	        	        <TextView
+	        	            android:layout_width="200dp"
+	        	            android:layout_height="wrap_content"
+	        	            android:layout_gravity="right|center"
+	        	            android:layout_weight="1.35"
+	        	            android:paddingLeft="30dip"
+	        	            android:text="Recent Alerts"
+	        	            android:textColor="@color/white"
+	        	            android:textSize="25dip"
+	        	            android:textStyle="bold" />
+
+	        	        <Button
+	        	            android:id="@+id/button2"
+	        	            android:layout_width="40dp"
+	        	            android:layout_height="40dp"
+	        	            android:background="@drawable/ic_icon_account"
+	        	            android:gravity="right|center_vertical|center_horizontal"
+	        	            android:text="@string/emptyString" />
+	        	    </LinearLayout>
+
+	        	</TableRow>
+
+	        	<LinearLayout
+	        	    android:id="@+id/linearLayout3_2"
+	        	    android:layout_width="match_parent"
+	        	    android:layout_height="wrap_content"
+	        	    android:orientation="vertical" 
+	        	    android:background="@color/black">
+
+	        	    <ListView
+	        	        xmlns:android="http://schemas.android.com/apk/res/android"
+	        	        android:id="@+id/alerthistorylistview"
+	        	        android:layout_width="320dp"
+	        	        android:layout_height="fill_parent"
+	        	        android:orientation="vertical" >
+	        	    </ListView>
+	        	    
+	        	</LinearLayout>
+
+		</LinearLayout>
+		
+	</LinearLayout>
+	
+</FrameLayout>

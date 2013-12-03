@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="80dp"
+	style="@style/WidgetBackground">
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="wrap_content" android:layout_margin="20dp"
+		android:id="@+id/widget_inner_container" android:layout_height="wrap_content">
+		<LinearLayout android:orientation="horizontal"
+			android:minWidth="155dp" android:layout_width="wrap_content"
+			android:layout_height="fill_parent" android:gravity="center">
+			<ImageButton style="@style/WidgetAppFirstLogo" android:id="@+id/widget_icon"
+				android:layout_width="30dp" android:layout_height="30dp"
+				android:layout_marginRight="5dp">
+			</ImageButton>
+			<TextView android:textColor="#ff000000" android:textSize="13sp"
+				android:textStyle="bold" android:layout_height="wrap_content"
+				android:text="Updating..." android:id="@+id/widget_text"
+				android:gravity="center" android:minWidth="80dp"
+				android:layout_width="wrap_content" android:layout_marginRight="5dp"></TextView>
+			<ImageView android:clickable="true" style="@style/WidgetRefreshButton"
+				android:gravity="center_horizontal" android:id="@+id/widget_refresh_button"
+				android:layout_height="30dp" android:layout_width="30dp">
+			</ImageView>
+		</LinearLayout>
+		<LinearLayout android:orientation="horizontal" android:id="@+id/widget_server_container"
+			android:layout_width="wrap_content" android:layout_height="wrap_content">
+			<LinearLayout android:layout_width="2dp"
+				android:background="#FFa8a8a8" android:layout_height="fill_parent">
+			</LinearLayout>
+			<LinearLayout android:layout_width="60dp"
+				android:orientation="vertical" android:layout_height="fill_parent">
+				<TextView android:textColor="#ff000000"
+					android:layout_height="wrap_content" android:text="Servers"
+					android:textSize="12sp" android:gravity="center"
+					android:layout_width="fill_parent"></TextView>
+				<TextView android:textColor="#ff000000"
+					android:layout_height="30dp" android:text="" android:textSize="12sp"
+					android:id="@+id/widget_server_count" android:gravity="center"
+					android:layout_width="fill_parent"></TextView>
+			</LinearLayout>
+			<LinearLayout android:layout_width="2dp"
+				android:background="#FFa8a8a8" android:layout_height="fill_parent">
+			</LinearLayout>
+			<LinearLayout android:layout_width="60dp" android:id="@+id/widget_alert_container"
+				android:orientation="vertical" android:layout_height="fill_parent">
+				<TextView android:textColor="#ff000000"
+					android:layout_height="wrap_content" android:text="Incidents"
+					android:gravity="center" android:textSize="12sp"
+					android:layout_width="fill_parent"></TextView>
+				<TextView android:textColor="#ff000000"
+					android:layout_height="30dp" android:text="" android:id="@+id/widget_alert_count"
+					android:gravity="center" android:textSize="12sp"
+					android:layout_width="fill_parent"></TextView>
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/login_screen_background"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dip"
+        android:paddingLeft="10dip"
+        android:paddingTop="100dip"
+        android:shadowColor="@color/gray2"
+        android:text="Email:"
+        android:textColor="@color/black"
+        android:textSize="20dip"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true" 
+        android:paddingLeft="10dip"/>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minLines="2"
+        android:paddingLeft="10dip"
+        android:textColor="@color/red" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dip"
+        android:paddingLeft="10dip"
+        android:shadowColor="@color/gray2"
+        android:text="Password:"
+        android:textColor="@color/black"
+        android:textSize="20dip"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:password="true"
+        android:singleLine="true"
+        android:paddingLeft="10dip" 
+        />
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="160dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:text="Login" />
+
+    <Button
+        android:id="@+id/cancel_button"
+        android:layout_width="160dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:text="Cancel" />
+    
+    </LinearLayout>
+</LinearLayout>

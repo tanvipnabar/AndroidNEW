@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AppFirst</string>
+    <string name="frontend_address">"https://wwws.appfirst.com"</string>
+<!--    <string name="frontend_address">"https://192.168.1.102"</string>-->
+    <string name="api_login">/api/iphone/login/</string>
+    <string name="api_key">"/api/v1/apikey/"</string>
+    <string name="api_servers">"/api/v1/servers/"</string>
+    <string name="api_processes">"/api/v1/processes/"</string>
+    <string name="api_alerts">"/api/v1/alerts/"</string>
+    <string name="api_applications">"/api/v1/applications/"</string>
+    <string name="api_polled_datas">"/api/v1/polled-data/"</string>
+    <string name="api_alert_histories">"/api/v1/alert-histories/"</string>
+    <string name="api_logs">"/api/v1/logs/"</string>
+    <string name="api_user_profiles">""/api/v1/user_profiles/"</string>
+    <string name="api_device">"/api/v1/mobile-devices/"</string>
+    <string name="passowrd_key">"af_password"</string>
+    <string name="username_key">"af_username"</string>
+    <string name="subscribe_all_key">af_first_login</string>
+    <string name="uid_key">"af_uid"</string>
+    <string name="redirect_key">"redirect_to"</string>
+    <string name="sender_email">"appfirst@gmail.com"</string>
+    <string name="notification_title">"New message from AppFirst"</string>
+    <string name="notification_key">"subject"</string>
+    <string name="appfirst_preference_key">"AppFirst_Monitoring_5(84*76%@#^$FD"</string>
+    <string name="brand">"Android"</string>
+    <string name="search_hint">Search</string>
+    <string name="togglemenu">ToggleMenu</string>
+    <color name="yellow1">#F7FE2E</color>
+    <color name="yellow2">#D7DF01</color>
+    <color name="orange4">#FAAC58</color>
+    <color name="orange5">#FE9A2E</color>
+    <color name="gray1">#848484</color>
+    <color name="gray2">#696969</color>
+    <color name="white">#FFFFFF</color>
+    <color name="grey05">#BDBDBD</color>
+    <color name="red">#E31E1E</color>
+    <color name="menuOuter">#4c646a</color>
+    <color name="menuDrawer">#1c2527</color>
+    <color name="black">#000000</color>
+    <string name="mycontent">mycontent</string>
+    <string name="todo">TODO</string>
+    <string name="drawerString">Menu</string>
+    <string name="user_profile">User Profile</string>
+    <string name="emptyString"></string>
+</resources>
